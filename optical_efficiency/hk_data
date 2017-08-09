@@ -1,0 +1,4 @@
+{'blackbody start temp': [9.13, 13.949],
+ 'blackbody stop temp': [9.13, 13.949],
+ 'drop_bolos datadir': ['./20170806_174919_drop_bolos',
+  './20170806_212608_drop_bolos']}

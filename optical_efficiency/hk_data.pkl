@@ -1,0 +1,19 @@
+(dp0
+S'blackbody stop temp'
+p1
+(lp2
+F9.13
+aF13.949
+asS'drop_bolos datadir'
+p3
+(lp4
+S'./20170806_174919_drop_bolos'
+p5
+aS'./20170806_212608_drop_bolos'
+p6
+asS'blackbody start temp'
+p7
+(lp8
+F9.13
+aF13.949
+as.

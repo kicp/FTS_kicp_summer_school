@@ -1,0 +1,364 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<< /F1 2 0 R /F2 3 0 R >>
+endobj
+2 0 obj
+<< /BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font >>
+endobj
+3 0 obj
+<< /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font >>
+endobj
+4 0 obj
+<< /Contents 11 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 10 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
+endobj
+5 0 obj
+<< /Outlines 7 0 R /PageLabels 12 0 R /PageMode /UseNone /Pages 10 0 R /Type /Catalog >>
+endobj
+6 0 obj
+<< /Author () /CreationDate (D:20170806175645+06'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20170806175645+06'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (Bolometer Tuning Summary) /Trapped /False >>
+endobj
+7 0 obj
+<< /Count 2 /First 8 0 R /Last 9 0 R /Type /Outlines >>
+endobj
+8 0 obj
+<< /Dest [ 4 0 R /XYZ 62.69291 647.0236 0 ] /Next 9 0 R /Parent 7 0 R /Title (Full Results: Tunings) >>
+endobj
+9 0 obj
+<< /Dest [ 4 0 R /XYZ 62.69291 452.0236 0 ] /Parent 7 0 R /Prev 8 0 R /Title (Failed Combs) >>
+endobj
+10 0 obj
+<< /Count 1 /Kids [ 4 0 R ] /Type /Pages >>
+endobj
+11 0 obj
+<< /Length 4596 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 101.0349 0 Td (Bolometer Tuning Summary) Tj T* -101.0349 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 725.0236 cm
+Q
+q
+1 0 0 1 62.69291 659.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 54 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (HWMap Name: Hwm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HWMap Path: Not Available) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 18 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Date: Sun Aug 6 17:56:45 2017) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (2 combs successfully tuned, 0 combs failed to tune) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 659.0236 cm
+Q
+q
+1 0 0 1 62.69291 626.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Full Results: Tunings) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 608.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Total Bolos Attempted: 114) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 590.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Total Zeroed at start: 0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 572.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Total Tuned: 114) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 554.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Total Latched: 0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 536.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Total Unfinished: 0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 530.0236 cm
+Q
+q
+1 0 0 1 62.69291 464.0236 cm
+1 1 1 rg
+n 0 66 469.8898 -30 re f*
+.878431 .878431 .878431 rg
+n 0 36 469.8898 -18 re f*
+1 1 1 rg
+n 0 18 469.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (Readout) Tj T* (Module) Tj T* ET
+Q
+Q
+q
+1 0 0 1 84.31496 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (Bolos) Tj T* (\(attempted\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 162.6299 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (Disabled At) Tj T* (Start) Tj T* ET
+Q
+Q
+q
+1 0 0 1 240.9449 51 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Tuned) Tj T* ET
+Q
+Q
+q
+1 0 0 1 319.2598 51 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Latched) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.5748 51 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Unfinished) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (0028/1/3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 84.31496 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (58) Tj T* ET
+Q
+Q
+q
+1 0 0 1 162.6299 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 240.9449 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (58) Tj T* ET
+Q
+Q
+q
+1 0 0 1 319.2598 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.5748 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (0028/2/4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 84.31496 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (56) Tj T* ET
+Q
+Q
+q
+1 0 0 1 162.6299 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 240.9449 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (56) Tj T* ET
+Q
+Q
+q
+1 0 0 1 319.2598 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.5748 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (0) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 36 m 469.8898 36 l S
+n 0 18 m 469.8898 18 l S
+n 78.31496 0 m 78.31496 66 l S
+n 156.6299 0 m 156.6299 66 l S
+n 234.9449 0 m 234.9449 66 l S
+n 313.2598 0 m 313.2598 66 l S
+n 391.5748 0 m 391.5748 66 l S
+n 0 66 m 469.8898 66 l S
+n 0 0 m 469.8898 0 l S
+n 0 0 m 0 66 l S
+n 469.8898 0 m 469.8898 66 l S
+Q
+Q
+q
+1 0 0 1 62.69291 464.0236 cm
+Q
+q
+1 0 0 1 62.69291 431.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Failed Combs) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 419.0236 cm
+Q
+q
+1 0 0 1 62.69291 401.0236 cm
+1 1 1 rg
+n 0 18 469.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Comb) Tj T* ET
+Q
+Q
+q
+1 0 0 1 240.9449 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Failure reason) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 234.9449 0 m 234.9449 18 l S
+n 0 18 m 469.8898 18 l S
+n 0 0 m 469.8898 0 l S
+n 0 0 m 0 18 l S
+n 469.8898 0 m 469.8898 18 l S
+Q
+Q
+q
+1 0 0 1 62.69291 401.0236 cm
+Q
+ 
+endstream
+endobj
+12 0 obj
+<< /Nums [ 0 13 0 R ] >>
+endobj
+13 0 obj
+<< /S /D /St 1 >>
+endobj
+xref
+0 14
+0000000000 65535 f
+0000000075 00000 n
+0000000119 00000 n
+0000000229 00000 n
+0000000344 00000 n
+0000000553 00000 n
+0000000660 00000 n
+0000000945 00000 n
+0000001019 00000 n
+0000001141 00000 n
+0000001254 00000 n
+0000001317 00000 n
+0000005970 00000 n
+0000006014 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com)
+ [(;Ly\235\354W\362\355?\234\230\213\205bS\353) (;Ly\235\354W\362\355?\234\230\213\205bS\353)]
+ /Info 6 0 R /Root 5 0 R /Size 14 >>
+startxref
+6051
+%%EOF

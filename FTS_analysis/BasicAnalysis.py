@@ -8,7 +8,7 @@ import numpy as np
 
 
 filename = input('Enter file name: ')
-with open( str(filename) , 'rb') as f:
+with open('../Data/' +str(filename) , 'rb') as f:
     d = pickle.load(f, encoding='latin1') 
     
 i = 11

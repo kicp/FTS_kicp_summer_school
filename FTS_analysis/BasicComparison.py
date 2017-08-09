@@ -1,13 +1,15 @@
+#given two files, plots them in separate windows and then gives the option of comparing the two through division. Mira
+
 import matplotlib.pyplot as pl
 import pickle
 import numpy as np
 import sys
 
-file1N = raw_input('First File Name: ')
+file1N = raw_input('First File Name: ') #gets file 1
 with open( '../Data/' + str(file1N) , 'rb') as file1:
     d1=pickle.load(file1)
     
-file2N = raw_input('Second File Name: ')
+file2N = raw_input('Second File Name: ') #gets file 2
 with open( '../Data/' + str(file2N) , 'rb') as file2:
     d2=pickle.load(file2)
     
@@ -26,6 +28,8 @@ pl.plot(X2,Y2)
 pl.title(str(file2N)[:-4])
 
 oper = raw_input('Divide [y]/[n] : ')
+
+#ensures the number of samples used is the same to be able to divide corresponding values
 Len1 = len(Y1)
 Len2 = len(Y2)
 

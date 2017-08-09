@@ -1,4 +1,4 @@
-#given two files, plots them in separate windows and then gives the option of comparing the two through division. Mira
+#given two files, plots the spectra in separate windows and then gives the option of comparing the two spectra through division. Mira
 
 import matplotlib.pyplot as pl
 import pickle

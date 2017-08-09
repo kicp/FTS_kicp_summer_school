@@ -19,9 +19,9 @@ else:
     print ('end')
 
 #choose based on which ports are used on the computer running this code.
-#dev = ('/dev/tty.usbmodem1421')
-dev = '/dev/tty.usbmodem1411'
-#dev = "COM4"
+#dev = ('/dev/tty.usbmodem1421')#Mac port number
+dev = '/dev/ttyACM2' # Linux port number
+#dev = "COM4" # Window port number
 ser,err = zc.init_zaber(dev)
 
 run_name = raw_input('Save Name: ') #saved with this name as a pickle file
@@ -51,7 +51,7 @@ if str(Answ2) == 'y':
                   ser,
                   d)
     pl.plot(data['delay0F'],data['sig0F'])
-    pl.title(str(run_name)
+    pl.title(str(run_name))
     pl.ylabel('Signal')
     pl.xlabel('Delay (mm)')
     pl.show()

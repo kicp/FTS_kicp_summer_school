@@ -65,6 +65,7 @@ pl.plot(300*Nu1,u1, label=file1N)
 pl.title(str(file1N)[:-4])
 pl.plot(300*Nu2,u2, label=file2N)
 pl.title(str(file2N)[:-4])
+pl.xlabel('GHz')
 pl.legend()
 
 oper = raw_input('Divide [y]/[n] : ')
@@ -85,5 +86,4 @@ if str(oper) == 'y':
     pl.figure(3)
     pl.plot(300*Nu1[startpt1:endpt1], u3)
     pl.title('Divided spectra' )
-
 pl.show()

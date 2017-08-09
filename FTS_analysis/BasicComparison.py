@@ -1,4 +1,4 @@
-#given two files, plots them in separate windows and then gives the option of comparing the two through division. Mira
+#given two files, plots the spectra in separate windows and then gives the option of comparing the two spectra through division. Mira
 
 import matplotlib.pyplot as pl
 import pickle
@@ -61,10 +61,11 @@ t2, D2, Nu2, u2= analyze_spectrum(d2)
 #overplot the spectra without dividing them
 
 pl.figure(1)
-pl.plot(Nu1,u1, label=file1N)
+pl.plot(300*Nu1,u1, label=file1N)
 pl.title(str(file1N)[:-4])
-pl.plot(Nu2,u2, label=file2N)
+pl.plot(300*Nu2,u2, label=file2N)
 pl.title(str(file2N)[:-4])
+pl.xlabel('GHz')
 pl.legend()
 
 oper = raw_input('Divide [y]/[n] : ')
@@ -83,7 +84,6 @@ endpt2 = startpt2 + Nsize
 if str(oper) == 'y': 
     u3 = np.divide(u1[startpt1:endpt1],u2[startpt2:endpt2])
     pl.figure(3)
-    pl.plot(Nu1[startpt1:endpt1], u3)
+    pl.plot(300*Nu1[startpt1:endpt1], u3)
     pl.title('Divided spectra' )
-
 pl.show()

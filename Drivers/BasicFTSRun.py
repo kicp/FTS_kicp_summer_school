@@ -1,3 +1,5 @@
+#Basic code to run the FTS. Give name, number of scans, and speed. Will run, save the output as a pickle file, and plot the interferogram. Mira
+
 import sys
 import time
 import pickle
@@ -15,13 +17,14 @@ if str(Answ) == 'y':
     d
 else: 
     print ('end')
-    
+
+#choose based on which ports are used on the computer running this code.
 #dev = ('/dev/tty.usbmodem1421')
 dev = '/dev/tty.usbmodem1411'
 #dev = "COM4"
 ser,err = zc.init_zaber(dev)
 
-run_name = raw_input('Save Name: ')
+run_name = raw_input('Save Name: ') #saved with this name as a pickle file
 niter = int(raw_input('Niter: '))
 max_d = 50. #mm
 #max_d = raw_input('Max Distance: ')

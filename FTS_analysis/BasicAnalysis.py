@@ -1,7 +1,10 @@
+#Basic analysis (not including demodulation or deconvolution)
+#Given a pickle file of an interferogram this plots the interferogram (using a power of 2 samples)
+#it then plots the spectrum (the fourier transform of the interferogram). Mira
+
 import numpy as np
 import matplotlib
 import matplotlib.pyplot as pl
-#%matplotlib inline
 import pickle
 import sys
 import numpy as np
@@ -9,7 +12,7 @@ import numpy as np
 
 filename = input('Enter file name: ')
 with open('../Data/' +str(filename) , 'rb') as f:
-    d = pickle.load(f, encoding='latin1') 
+    d = pickle.load(f, encoding='latin1') #delete 'encoding = latin1' if using python 2.x only needed for python3.x
     
 i = 11
 Nsize = 2**i
@@ -34,16 +37,16 @@ fFull = df*np.arange((Nsize/2) + 1)+df/2.0
 
 
 y = (d['sig0F'])
-D = y[startpt:endpt]
+D = y[startpt:endpt] #signal
 #D = np.flipud(D)
 
 a = d['delay0F']/v
-t = a[startpt:endpt]
+t = a[startpt:endpt] #time (used as x axis)
 
-D = np.hanning(Nsize)*D
-S = np.fft.rfft(D)
+D = np.hanning(Nsize)*D #signal multiplied by a hanning function to improve FFT
+S = np.fft.rfft(D) #fourier transform
 S = S[0:-1]
-u = np.abs(S)
+u = np.abs(S) #gets rid of imaginary part of fourier transform solely for the plot
 dNu = 1/(Nsize*dx)
 Nu = dNu*np.arange(Nsize/2)
 

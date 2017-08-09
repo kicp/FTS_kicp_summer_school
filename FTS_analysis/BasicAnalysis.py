@@ -12,7 +12,7 @@ import numpy as np
 
 filename = input('Enter file name: ')
 with open('../Data/' +str(filename) , 'rb') as f:
-    d = pickle.load(f, encoding='latin1') #delete 'encoding = latin1' if using python 2.x only needed for python3.x
+    d = pickle.load(f) #Add 'encoding = latin1' if using python 3.x only needed for python2.x
     
 i = 11
 Nsize = 2**i
@@ -62,7 +62,8 @@ ax1.set_title('Interferogram')
 ax2.plot(300*Nu, u)
 ax2.set_title('Fourier Transform of data')
 #pl.xlim(0,2000)
-ax2.set_xlabel('GHz?')
+ax2.set_xlabel('GHz')
 ax2.set_ylabel('Arb')
+pl.xlim([0,1000])
 pl.tight_layout()
 pl.show()

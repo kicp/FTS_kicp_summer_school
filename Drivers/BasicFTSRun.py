@@ -26,7 +26,7 @@ ser,err = zc.init_zaber(dev)
 
 run_name = raw_input('Save Name: ') #saved with this name as a pickle file
 niter = int(raw_input('Niter: '))
-max_d = 50. #mm
+max_d = 60. #mm
 #max_d = raw_input('Max Distance: ')
 speed = int(raw_input('Speed: '))  #mm/s
 max_nu = 300. # GHz
